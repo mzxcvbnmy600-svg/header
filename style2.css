@@ -34,8 +34,8 @@ header nav a:hover {
     border-radius: 8px;
 
 }
-header input{
-    padding: 0;
+header div input{
+    color: #000;
     height: 25px;
     border-radius: 4px;
     
