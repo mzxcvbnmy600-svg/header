@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(238, 232, 232);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 12px 35px;
+    justify-content: space-between;
+}
+
+header h2 b {
+    color: orangered;
+}
+
+header nav a {
+    font-size: 16px;
+    color: orangered;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+header nav a:hover {
+    color: #fff;
+    background-color: orangered;
+    border-radius: 8px;
+
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header nav a{
+    color: #fff;
+}
+
+header nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    margin: 8px;
+}
+
+header nav a:hover {
+    color: dimgray;
+    border-radius: 8px;
+
+}
+header div input{
+    color: #000;
+    height: 25px;
+    border-radius: 4px;
+    
+
+}
